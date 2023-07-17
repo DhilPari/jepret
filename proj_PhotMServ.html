@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+		
+		<title>Jeprat-Jepret</title>
+		<link rel="icon" type="image/x-icon" href="WM2.png">
+		<style>
+			#logo {
+				padding: 20%;
+				width: 100%;
+			}
+			#cover {
+				z-index: -1;
+				height: 100%;
+				width: 100%;
+				min-height: 100%;
+				min-width: 100%;
+				position: absolute;
+				overflow: hidden ;
+				object-fit: cover ;<!--Menspresifikan bagaimana tag <img>(image/foto) & <video>(Video/Mp4) agar bisa sesuai dengan container/pembungkusnya-->; 
+				background-color: rgba(0,0,0,1);
+				opacity: 0.8;
+				
+			}
+			h1 {
+				font-family:OCR-A BT; 
+				font-size:85px;
+				color: #ffffff;
+				padding-top: 30px;
+				padding-bottom: 10px;
+				padding-left: 25px;
+				text-align:center;
+			}
+			#navbar {
+				background-image: linear-gradient(to left, rgba(6,200,169,1), rgba(6,141,169,1));
+			}
+			#nav-row {
+				margin-left: 1px;
+				margin-right: 1px;
+			}
+			#nav {
+				font-size: 20px;
+				font-family: Lucida Sans Typewriter;
+				color: #ffffff;
+				text-align: center;
+				padding-top: 2px;
+			}
+			.Linking {
+				color: #ffffff;
+			}
+			#kuru {
+				height: 100%;
+				widht: auto;
+				top: 0;
+				position: absolute;
+				animation: kuru 20s linear infinite;
+			}
+			@keyframes kuru{
+				0%{
+					left: 110%;
+				}
+				100%{
+					left: -20%;
+				}
+				
+			}
+			#welcome {
+				padding-top: 10px;
+				text-align: center;
+				font-weight: bold;
+				font-family: Lucida Sans Typewriter;
+				color: #ffffff;
+			}
+			#desk {
+				font-size: 25px;
+				font-family: Dubai;
+			}
+			* {
+			  box-sizing: border-box;
+			}
+
+			body {
+			  margin: 0;
+			  font-family: Arial;
+			}
+
+			.header {
+			  text-align: center;
+			  padding: 32px;
+			}
+
+			.row {
+			  display: -ms-flexbox; /* IE10 */
+			  display: flex;
+			  -ms-flex-wrap: wrap; /* IE10 */
+			  flex-wrap: wrap;
+			  padding: 0 4px;
+			}
+
+			/* Create four equal columns that sits next to each other */
+			.column {
+			  -ms-flex: 25%; /* IE10 */
+			  flex: 25%;
+			  max-width: 25%;
+			  padding: 0 4px;
+			}
+
+			.column img {
+			  margin-top: 8px;
+			  vertical-align: middle;
+			  width: 100%;
+			}
+
+			/* Responsive layout - makes a two column-layout instead of four columns */
+			@media screen and (max-width: 800px) {
+			  .column {
+				-ms-flex: 50%;
+				flex: 50%;
+				max-width: 50%;
+			  }
+			}
+
+			/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+			@media screen and (max-width: 600px) {
+			  .column {
+				-ms-flex: 100%;
+				flex: 100%;
+				max-width: 100%;
+			  }
+			}
+			#Freelance{
+				padding-top: 10px;
+				text-align: center;
+				font-weight: bold;
+				font-family: Lucida Sans Typewriter;
+				color: #ffffff;
+			}
+			#footer {
+				font-size: 15px;
+				font-family: Lucida Sans Typewriter;
+				background-color: #0B666A; 
+				text-align: center;
+				color: #ffffff;
+			}
+		</style>
+	</head>	
+	<body style="background-color:#000000">
+	<!--<img id="cover" src="home_header_bg_day_english.gif">-->
+	<br>
+	<br>
+	<div class="container">	
+		<div class="container">
+			<div class="row">
+				<header class="col-md-2">
+					<img id="logo"src="WM2.png">
+				</header>
+				<header class="col-md-8">
+					<h1>JepratJepret</h1>
+				</header>
+				<header class="col-md-2">
+					
+				</header>
+			</div>
+		</div>
+		<div id="navbar" class="container">
+			<div class="container text-center">
+				<div id="nav-row" class="row">
+					<div class="col-md-2">
+						<p></p>
+					</div>
+					<div id="nav" class="col-md-2">
+						<a class="Linking" href="#Gallery">Gallery</a>
+					</div>
+					<div id="nav" class="col-md-2">
+						<a class="Linking" href="#Freelance">Freelance</a>
+					</div>
+					<div id="nav" class="col-md-2">
+						<a class="Linking" href="https://www.instagram.com/ah.fadhil.parihady/">Soc.med</a>
+					</div>
+					<div id="nav" class="col-md-2">
+						<a class="Linking" href="bio.html">Biograph</a>
+					</div>
+					<div class="col-md-2">
+						<p></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<br>
+		<br>
+		<hr color="white">
+		<div class="container-fluid" style="position: relative; background-color: #0B666A;">
+		<img id="kuru" src="hertaa.gif">
+			<div class="row" style="">
+				<div class="col-md-3"> 
+				</div>
+				<div id="welcome" class="col-md-6">
+					<h3>Welcome to Jeprat-Jepret</h3>
+					<p id="desk">A porto of Ahmad Fadhil Parihady's Photography</p>
+				</div>
+				<div class="col-md-3">
+				</div>
+			</div>
+		</div>
+		<hr color="white">
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<p id="Gallery"></p>
+		<div class="row" style="background-color: #000000">
+			<div class="col-md-3"> 
+			</div>
+			<div id="welcome" class="col-md-6">
+				<h3>Gallery</h3>
+			</div>
+			<div class="col-md-3">
+			</div>
+		</div>
+		<div class="row"> 
+			<div class="column">
+				<img src="poto/1.jpg" style="width:100%">
+				<img src="poto/2.jpg" style="width:100%">
+				<img src="poto/3.jpg" style="width:100%">
+				<img src="poto/4.jpg" style="width:100%">
+				<img src="poto/5.jpg" style="width:100%">
+				<img src="poto/6.jpg" style="width:100%">
+				<img src="poto/7.jpg" style="width:100%">
+				<img src="poto/19.jpg" style="width:100%">
+			</div>
+			<div class="column">
+				<img src="poto/8.jpg" style="width:100%">
+				<img src="poto/9.jpg" style="width:100%">
+				<img src="poto/10.jpg" style="width:100%">
+				<img src="poto/11.jpg" style="width:100%">
+				<img src="poto/20.jpg" style="width:100%">
+			</div>  
+			<div class="column">
+				<img src="poto/14.jpg" style="width:100%">
+				<img src="poto/35.jpg" style="width:100%">
+				<img src="poto/36.jpg" style="width:100%">
+				<img src="poto/39.jpg" style="width:100%">
+				<img src="poto/18.jpg" style="width:100%">
+			</div>
+			<div class="column">
+				<img src="poto/30.jpg" style="width:100%">
+				<img src="poto/31.jpg" style="width:100%">
+				<img src="poto/32.jpg" style="width:100%">
+				<img src="poto/33.jpg" style="width:100%">
+				<img src="poto/34.jpg" style="width:100%">
+			</div>
+		</div>
+	</div>
+	<br>
+	<br>
+	<br>
+	<div class="row" style="background-color: #000000">
+			<div class="col-md-3"> 
+			</div>
+			<div id="Freelance" class="col-md-6">
+				<h3>Freelance</h3>
+				<br>
+				<p>Kamu bisa pakai jasaku lohh!!</p>
+				<p>Hubungi aku disini</p>
+				<br>
+				<a href="https://api.whatsapp.com/send/?phone=6282122735055&text&type=phone_number&app_absent=0"><i class="fa-brands fa-whatsapp fa-2xl" style="color: #ffffff"></i></a>
+			</div>
+			<div class="col-md-3">
+			</div>
+		</div>
+	<br>
+	<br>
+	<br>
+	<div class="container-fluid">
+		<div id="footer" class="row">
+			<div class="col-md-12">
+			<br>
+				<p>@ahmadfadhilparihady</p>
+				<p>17 Juli 2023</p>
+			</div>
+		</div>
+	</div>
+		<!--<audio controls>
+		<source src="lagu/kuru.mp3" type="audio/mp3"/>
+		</audio>
+		<video loop autoplay muted>
+		<source src="video/mboh1.mp4" type="video/mp4"/>
+		</video>-->
+	</body>
+</html>
